@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(145, 114, 173);
+    margin: 0 0 3vh 0;
+    height: 9vh;
+    font-size: 30px;
+    color: aliceblue;
+}
+.articulo{
+    color: antiquewhite;
+    width: 30px;
+    height: 15px;
+    display: inline-block;
+    padding:5cm ;
+   background-color: chartreuse;
+   margin: 2vh;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: justify;
+
+}
