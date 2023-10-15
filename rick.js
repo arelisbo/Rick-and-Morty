@@ -18,7 +18,7 @@ for (let i= 0; i < 20; i++){
     const data = traerDatos().then(respuesta => {
         const articulo =document.createElement("article")
         articulo.className += "articulo"
-        const titulo = document.createElement ("h2")
+        const titulo = document.createElement ("h6")
         titulo.innerHTML = `${respuesta[i].name}`
         const imagen =document.createElement("img")
         imagen.src = `${respuesta[i].image}`
