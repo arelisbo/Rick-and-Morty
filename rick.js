@@ -18,9 +18,10 @@ for (let i= 0; i < 20; i++){
     const data = traerDatos().then(respuesta => {
         const articulo =document.createElement("article")
         articulo.className += "articulo"
-        const titulo = document.createElement ("h6")
+        const titulo = document.createElement ("h3")
         titulo.innerHTML = `${respuesta[i].name}`
         const imagen =document.createElement("img")
+        imagen.className +="styleImg"
         imagen.src = `${respuesta[i].image}`
         const parrafo =document.createElement("p")
         parrafo.className += "parrafo"
